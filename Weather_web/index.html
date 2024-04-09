@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- common font file -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter Your Location" id="city">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="https://www.svgrepo.com/show/282057/cloud-computing-magnifying-glass.svg" width="500" height="100">
+            <p>Search another place!</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="" width="500" height="200">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details row justify-content-center">
+            <div class="humidity col-6 p-5">               
+                <div class="text ">
+                    <p> <i class="fa-solid fa-water"></i> <span></span><br>Humidity
+                    </p>                   
+                </div>
+            </div>
+
+            <div class="wind col-6 p-5">                
+                <div class="text">
+                    <p><i class="fa-solid fa-wind"></i> <span></span><br>Wind Speed
+                    </p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+    <!-- for icons like loc dot, search mag glass -->
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>   
+    <script src="index.js"></script>
+</body>
+</html>
